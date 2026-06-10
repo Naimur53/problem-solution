@@ -85,6 +85,7 @@ function findANode(tree: TreeNode, node: number, accessString?: string): { tree:
 //         "right": null
 //     }
 // }, 19))
+// set nodes to tree
 
 function setANodeToTree(tree: TreeNode, node: number, { val, left, right }: TreeNode): TreeNode {
     const findNode = findANode(tree, node)
